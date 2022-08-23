@@ -1,0 +1,63 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+.post {
+    background: white;
+    margin: 40px auto;
+    width: 600 remotpx;
+}
+
+.post .post-header {
+    width: 100%;
+    margin: 0;
+}
+
+.post .post-header .header_izquierda {
+    display: inline-flex;
+    flex: auto;
+    width: 80%;
+    align-items: center;
+    padding: 10px;
+}
+
+.post .post-header .header_izquierda * {
+    float: left;
+}
+
+.post .post-header .header_derecha {
+    width: 12%;
+    display: inline-block;
+}
+
+.post .post-header .header_derecha * {
+    float: right;
+}
+
+div.post img {
+    width: 100%;
+}
+
+.acciones {
+    padding: 10px;
+}
+
+.acciones i:last-child {
+    float: right;
+}
+
+#likes {
+    padding: 0 5px 0 5px;
+    text-align: justify;
+}
+
+#extracto {
+    padding: 0 5px 10px 5px;
+    text-align: justify;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+}
